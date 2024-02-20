@@ -1,20 +1,23 @@
-# dictionary
-# Directory Discovery Tool
+# Directory Scanner
 
-This tool allows you to discover directories on a target website by providing a list of directory names.
+This script is a simple directory scanner that checks for the existence of directories on a target URL.
 
 ## Usage
 
-1. **Setup:**
-   - Clone this repository to your local machine.
-   - Ensure you have Python installed.
+1. Run the script.
+2. Enter the target URL when prompted.
+3. Enter the name of the file containing directories when prompted.
 
-2. **Usage:**
-   - Run the script `directory_discovery.py`.
-   - Enter the target URL when prompted.
-   - Enter the name of the file containing directories to search for.
+The script will then attempt to access each directory listed in the file on the target URL. If a directory exists, it will be printed out.
 
-3. **Example:**
-   ```bash
-   [*] Enter Target URL: http://example.com
-   [*] Enter Name Of The File Containing Directories: directories.txt
+## Disclaimer
+
+This script is provided for educational purposes only. Use it responsibly and only on systems you have permission to access.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
